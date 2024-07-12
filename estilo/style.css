@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+header > h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4em;
+}
+
+header > a {
+    color: white;
+    text-align: center;
+}
+
+article.art01 {
+    font-size: 3.0em;
+    font-family: "Sriracha", cursive;
+    text-align: justify;
+    margin: 80px 0px 50px 40px;
+}
+
+section.asd01 {
+    margin: 30px 0px 50px -1px;
+    background-color: rgb(51, 51, 51);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 12px 0px ;
+    padding: 100px;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+}
+
+section.asd01 > p {
+    margin-left: -30px; 
+    font-family: "Sriracha", cursive;
+    font-size: 3.0em;
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 10px;
+}
+
+
+
+article.art03 {
+    font-size: 3.0em;
+    font-family: "Sriracha", cursive;
+    text-align: justify;
+    margin: 80px 0px 50px 40px;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg) 
+}
+
+section.asd02 {
+    margin: 30px 0px 50px -1px;
+    background-color: rgb(51, 51, 51);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 12px 0px ;
+    padding: 100px;
+}
+
+section.asd02 > p { 
+    margin-left: -30px; 
+    font-family: "Sriracha", cursive;
+    font-size: 3.6em;
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 10px;
+    
+}
+
+article.art04 {
+    font-size: 3.0em;
+    font-family: "Sriracha", cursive;
+    text-align: justify;
+    margin: 80px 0px 50px 40px;
+}
+
+footer > p {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+strong {
+    font-weight: bolder;
+}
