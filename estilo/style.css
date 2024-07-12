@@ -30,12 +30,18 @@ header > a {
     text-align: center;
 }
 
+body {
+    min-height: 100vh;
+}
+
 article.art01 {
-    font-size: 3.0em;
+    font-size: 3.0vw;
     font-family: "Sriracha", cursive;
     text-align: justify;
     margin: 80px 0px 50px 40px;
 }
+
+
 
 section.asd01 {
     margin: 30px 0px 50px -1px;
@@ -55,7 +61,7 @@ section#img01 {
 section.asd01 > p {
     margin-left: -30px; 
     font-family: "Sriracha", cursive;
-    font-size: 3.0em;
+    font-size: 3.0vw;
     color: white;
     text-align: justify;
     display: inline-block;
@@ -66,7 +72,7 @@ section.asd01 > p {
 
 
 article.art03 {
-    font-size: 3.0em;
+    font-size: 3.0vw;
     font-family: "Sriracha", cursive;
     text-align: justify;
     margin: 80px 0px 50px 40px;
@@ -89,7 +95,7 @@ section.asd02 {
 section.asd02 > p { 
     margin-left: -30px; 
     font-family: "Sriracha", cursive;
-    font-size: 3.6em;
+    font-size: 3.6vw;
     color: white;
     text-align: justify;
     display: inline-block;
@@ -99,7 +105,7 @@ section.asd02 > p {
 }
 
 article.art04 {
-    font-size: 3.0em;
+    font-size: 3.0vw;
     font-family: "Sriracha", cursive;
     text-align: justify;
     margin: 80px 0px 50px 40px;
